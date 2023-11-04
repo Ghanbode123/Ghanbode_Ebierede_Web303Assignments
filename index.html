@@ -1,44 +1,74 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-	<title>Welcome to E Corp.</title>
-	<link href="styles.css" type="text/css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+	
 </head>
 
 <body>
-	<section id="container">
-		<header></header>
+    <h1>LIONEL MESSI FAN PAGE</h1>
 
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="aboutus.html">About Us</a></li>
-				<li><a href="solutions.html">Solutions</a></li>
-				<li><a href="support.html">Support</a></li>
-				<li><a href="contactus.html">Contact Us</a></li>
-			</ul>
-		</nav>
+    <div class="accordion">
+        <h2 class="accordion-label">ABOUT MESSI</h2>
+        <div class="accordion-panel">
+            <p>Lionel Messi is an argentinian professional football player who plays for inter miami  in the MLS. </p>
+            <img src="messi.png" alt="Mess Image"/>
+        </div>
+    </div>
 
-		<section id="content">
-			<h2>THEME TITLE HERE</h2>
+    <div class="accordion">
+        <h2 class="accordion-label">Career Achievements</h2>
+        <div class="accordion-panel">
+            <ul>
+                <li>MULTIPLE BALLON d'or</li>
+                <li>RECORD TOP SCOR</li>
+                <li>MULTIPLE BALLON d'or</li>
+            </ul>
+        </div>
+    </div>
 
-			<div id="content-item-list">
-				<!-- sample of what your toString should output
-					<div id="content-item-0">
-						<h4>name here</h4>
-						<p>description here</p>
-						<div>category genre here</div>
-					</div>
-				-->
-			</div>
-		</section>
+    <div class="tabs">
+        <ul>
+            <li class="tab">EARLY LIFE</li>
+            <li class="tab">CLUB CAREER</li>
+            <li class="tab">INTERNATIONAL CAREER</li>
+            <li class="tab">LEGACY</li>
+            <li class="tab">PERSONAL LIFE</li>
 
-		<footer></footer>
-	</section>
+        </ul>
+        <div clas="tab-content">
+            <div class="tab-panel">
+                <p>Messi was born in Rosario argentina, on jun 24th, 1987 he showed great talent at a young age which led to his jouney to football stardom.</p>
+            </div>
 
-	<script src="jquery.js"></script>
-	<script src="script.js"></script>
+            <div clas="tab-content">
+                <div class="tab-panel">
+                    <p>Messi spent most of his career at fc barcelona which he won myriads of throphies and became the club greatest player.</p>
+                </div>
+
+                <div clas="tab-content">
+                    <div class="tab-panel">
+                        <p>On the international level Messi won an olympic medal , a copa ameriaca, finalisma and a word cup then later becoming the highest goalscorer for argentina.</p>
+                    </div>
+
+                    <div clas="tab-content">
+                        <div class="tab-panel">
+                            <p>His legacy is cemented as the greatest football player to gace the sport.</p>
+                        </div>
+
+                        <div clas="tab-content">
+                            <div class="tab-panel">
+                                <p>Messi is married to Antonell Roccuzo his childhood neigbour and had three kids with her.</p>
+                            </div>
+        
+    
+           
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>
