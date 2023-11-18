@@ -1,0 +1,32 @@
+#search {
+    margin-top: 10px;
+}
+
+#charactersTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#charactersTable th, #charactersTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#charactersTable th {
+    background-color: #f2f2f2;
+    display: block;
+}
+
+#charactersTable tr.highlight td {
+    background-color: darkgreen;
+    color: white;
+}
+
+button {
+    margin-top: 10px;
+}
+body{
+    background-color: burlywood;
+}
