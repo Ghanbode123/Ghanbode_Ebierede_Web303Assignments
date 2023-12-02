@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1>
+        <!-- your name goes here -->
+        GHANBODE EBIEREDE
+    </h1>
+    <form id="registrationForm">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+
+        <br>
+
+        <label for="password">Password (at least 12 characters):</label>
+        <input type="password" id="password" name="password">
+
+        <br>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword">
+
+        <br>
+
+        <label>
+            <input type="checkbox" id="termsCheckbox"> I accept the terms of service
+        </label>
+
+        <br>
+
+        <label for="country">Select your country:</label>
+        <select id="country" name="country">
+            <option value="" selected disabled>Select your country</option>
+            
+        </select>
+
+        <br>
+
+        <button type="submit" id="submitButton" disabled>Submit</button>
+    </form>
+
+    <div id="welcomeMessage" style="display:none;"></div>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
